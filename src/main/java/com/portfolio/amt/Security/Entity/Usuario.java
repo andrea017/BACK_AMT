@@ -1,6 +1,7 @@
 
 package com.portfolio.amt.Security.Entity;
 
+import com.portfolio.amt.Entity.Persona;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
@@ -12,6 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
 @Entity
@@ -32,6 +34,10 @@ public class Usuario {
     @ManyToMany (fetch=FetchType.EAGER)
     @JoinTable(name="usuario_rol", joinColumns=@JoinColumn(name="usuario_id"), inverseJoinColumns=@JoinColumn(name="rol_id"))
     private Set<Rol> roles=new HashSet<>();
+    
+    @OneToOne(mappedBy="usuario")
+    private Persona persona;
+    
     
     //constructor
 

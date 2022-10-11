@@ -1,54 +1,30 @@
 
-package com.portfolio.amt.Entity;
+package com.portfolio.amt.Dto;
 
-import com.portfolio.amt.Security.Entity.Usuario;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.validation.constraints.NotBlank;
 
 
-
-@Entity
-public class Persona {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-    
-    
+public class dtoPersona {
+    @NotBlank
     private String nombre;
+    @NotBlank
     private String apellido;
+    @NotBlank
     private String img;
+    @NotBlank
     private String titulo;
+    @NotBlank
     private String acercade;
-    
-    @OneToOne (fetch=FetchType.EAGER)
-    @JoinColumn(name="usuario_id")
-    private Usuario usuario;
 
-    public Persona() {
+    public dtoPersona() {
     }
 
-    public Persona(String nombre, String apellido, String img, String titulo, String acercade) {
+    public dtoPersona(String nombre, String apellido, String img, String titulo, String acercade) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.img = img;
         this.titulo = titulo;
         this.acercade = acercade;
-    }
-    
-    
-    
-    
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -90,7 +66,6 @@ public class Persona {
     public void setAcercade(String acercade) {
         this.acercade = acercade;
     }
-
     
     
     
