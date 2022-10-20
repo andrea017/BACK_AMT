@@ -16,14 +16,16 @@ public class Proyectos {
     @Size(min = 1 , max = 1000, message ="no cumple con la longitud")
     String descripcion;
     String img;
+    String link;
 
     public Proyectos() {
     }
 
-    public Proyectos(String nombre, String descripcion, String img) {
+    public Proyectos(String nombre, String descripcion, String img, String link) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.img = img;
+        this.link = link;
     }
 
     public int getId() {
@@ -57,6 +59,15 @@ public class Proyectos {
     public void setImg(String img) {
         this.img = img;
     }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
     
     
     

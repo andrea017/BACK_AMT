@@ -42,7 +42,8 @@ public class ProyectosController {
             return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
         }
 
-        Proyectos proyecto = new Proyectos(dtopro.getNombre(), dtopro.getDescripcion(), dtopro.getImg());
+        Proyectos proyecto = new Proyectos(dtopro.getNombre(),
+                dtopro.getDescripcion(), dtopro.getImg(), dtopro.getLink());
         proyectosS.save(proyecto);
 
         return new ResponseEntity(new Mensaje("Proyectos agregada"), HttpStatus.OK);
@@ -66,6 +67,7 @@ public class ProyectosController {
             proyecto.setNombre(dtopro.getNombre());
             proyecto.setDescripcion(dtopro.getDescripcion());
             proyecto.setImg(dtopro.getImg());
+            proyecto.setLink(dtopro.getLink());
 
             proyectosS.save(proyecto);
             return new ResponseEntity(new Mensaje("Proyectos actualizados"), HttpStatus.OK);
