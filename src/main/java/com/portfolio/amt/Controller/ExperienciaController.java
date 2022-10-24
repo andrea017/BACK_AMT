@@ -38,9 +38,9 @@ public class ExperienciaController {
         if (StringUtils.isBlank(dtoexp.getNombreE())) {
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
-        if (expService.existsByNombreE(dtoexp.getNombreE())) {
-            return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
-        }
+        //if (expService.existsByNombreE(dtoexp.getNombreE())) {
+           // return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
+        //}
 
         Experiencia experiencia = new Experiencia(
         dtoexp.getNombreE(),
@@ -60,8 +60,8 @@ public class ExperienciaController {
         if (!expService.existsById(id))
             return new ResponseEntity(new Mensaje("El id no existe"), HttpStatus.BAD_REQUEST);
             //Compara nombre de experiencias     
-        if (expService.existsByNombreE(dtoexp.getNombreE()) && expService.getByNombreE(dtoexp.getNombreE()).get().getId() != id)
-            return new ResponseEntity(new Mensaje("Esa experiencia ya existe"), HttpStatus.BAD_REQUEST);
+        //if (expService.existsByNombreE(dtoexp.getNombreE()) && expService.getByNombreE(dtoexp.getNombreE()).get().getId() != id)
+            //return new ResponseEntity(new Mensaje("Esa experiencia ya existe"), HttpStatus.BAD_REQUEST);
             
             //No puede estar vacio
         if (StringUtils.isBlank(dtoexp.getNombreE())) 

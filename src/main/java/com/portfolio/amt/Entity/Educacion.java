@@ -19,6 +19,7 @@ public class Educacion {
     private String logoE;
     @Size(min = 1, max = 1000)
     private String tareasE;
+   
     
 
     public Educacion() {
