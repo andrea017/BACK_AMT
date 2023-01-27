@@ -17,11 +17,15 @@ C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\MainSecurity.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Service\UserDetailsImpl.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\AmtApplication.java
+C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Controller\ProyectosController.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Dto\dtoPersona.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Entity\Persona.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Service\ExperienciaService.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Repository\RHyS.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Service\UsuarioService.java
+C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Repository\RProyectos.java
+C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Dto\dtoProyectos.java
+C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Entity\Proyectos.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Controller\AuthController.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Entity\Experiencia.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Dto\dtoExperiencia.java
@@ -34,6 +38,7 @@ C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Enums\RolNombre.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Controller\HySController.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Repository\IPersonaRepository.java
+C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Service\ProyectosService.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Dto\dtoEducacion.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Dto\JwtDto.java
 C:\Andrea\Argentina Programa\Segunda Etapa\Backend_deploy\Back_end\BACK_AMT\src\main\java\com\portfolio\amt\Security\Repository\IUsuarioRepository.java

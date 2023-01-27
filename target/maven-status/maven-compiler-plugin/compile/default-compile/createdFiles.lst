@@ -1,5 +1,6 @@
 com\portfolio\amt\Dto\dtoExperiencia.class
 com\portfolio\amt\Service\HySService.class
+com\portfolio\amt\Entity\Proyectos.class
 com\portfolio\amt\Security\Service\UserDetailsImpl.class
 com\portfolio\amt\Service\ExperienciaService.class
 com\portfolio\amt\Dto\dtoEducacion.class
@@ -33,7 +34,11 @@ com\portfolio\amt\Security\jwt\JwtTokenFilter.class
 com\portfolio\amt\Controller\HySController.class
 com\portfolio\amt\Entity\Experiencia.class
 com\portfolio\amt\Security\Repository\RolRepository.class
+com\portfolio\amt\Controller\ProyectosController.class
 com\portfolio\amt\Repository\RExperiencia.class
+com\portfolio\amt\Service\ProyectosService.class
 com\portfolio\amt\Repository\RHyS.class
 com\portfolio\amt\Service\EducacionService.class
+com\portfolio\amt\Dto\dtoProyectos.class
+com\portfolio\amt\Repository\RProyectos.class
 com\portfolio\amt\Controller\EducacionController.class
